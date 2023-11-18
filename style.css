@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* perfect web page  */
+html {
+     /* background-color: #E0F4FF; */
+     background: rgb(227,255,0);
+background: linear-gradient(90deg, rgba(227,255,0,1) 0%, rgba(26,128,142,1) 100%);
+}
+  .web1 {
+    font-size: 65px;
+    font-weight: 900;
+    font-family: "fareed";
+    text-align: center;
+    word-spacing: 50px;
+  }
+
+@font-face {
+  font-family: "fareed";
+  src: url(./font/Chopsic.otf);
+}
+.img1 {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  left: 450px;
+  right: 500px;
+  object-position: center;
+  color: #000000;
+background: #FFFFFF;
+text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+  border-radius: 8%;
+}
+.img2 {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  left: 450px;
+  right: 500px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border-radius: 8%;
+}
+.img3 {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  left: 450px;
+  right: 500px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border-radius: 8%;
+}
+.img4 {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  left: 450px;
+  right: 500px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border-radius: 8%;
+}
+.img5 {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  left: 450px;
+  right: 500px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border-radius: 8%;
+}
+.head1 {
+  font-size: 4em;
+  font-family: "roshan";
+  text-align: center;
+  letter-spacing:5px ;
+  left: 500%;
+  /* text-shadow: 1px 3px 0 #0b0404, 1px 13px 5px #272424; */
+  text-shadow: 1px -2px 0px rgba(0,0,0,0.6);
+}
+@font-face {
+  font-family: "roshan";
+  src: url("/font/aAbsoluteEmpire.otf");
+}
+
+.head2 {
+  font-size: 4em;
+  font-family: "roshan";
+  text-align: center;
+  /* letter-spacing: 5px; */
+  /* text-shadow: 1px 3px 0 #0b0404, 1px 13px 5px #272424; */
+  text-shadow: 1px -2px 0px rgba(0,0,0,0.6);
+}
+.head3 {
+  font-size: 4em;
+  font-family: "roshan";
+  text-align: center;
+  letter-spacing: 15px;
+  /* text-shadow: 1px 3px 0 #0b0404, 1px 13px 5px #272424; */
+  text-shadow: 1px -2px 0px rgba(0,0,0,0.6);
+}.head4 {
+  font-size: 4em;
+  font-family: "roshan";
+  text-align: center;
+  /* letter-spacing: 5px; */
+  /* text-shadow: 1px 3px 0 #0b0404, 1px 13px 5px #272424; */
+  text-shadow: 1px -2px 0px rgba(0,0,0,0.6);
+}
+.head5 {
+  font-size: 4em;
+  font-family: "roshan";
+  text-align: center;
+  /* letter-spacing: 10px; */
+  /* text-shadow: 1px 3px 0 #0b0404, 1px 13px 5px #272424; */
+  text-shadow: 1px -2px 0px rgba(0,0,0,0.6);
+}
+
+.imgslider{
+width: 60%;
+height: 70vh;
+position: relative;
+left: 260px;
+background-image: url("./images/money\ heist.jpg");
+animation: changetime 15s linear infinite;
+background-size: 100% 100%;
+box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+border-radius: 2%;
+border: #272424;
+margin: 20px ;
+}
+
+@keyframes changetime{
+0% {
+   background-image: url("./images/money\ heist.jpg");
+}
+25% {
+   background-image: url("./images/peripheral.jpg");
+}
+50% {
+   background-image: url("./images/aspirants.jpg");
+}
+75% {
+   background-image: url("./images/family\ men.jpg");
+}
+100% {
+   background-image: url("./images/lost\ in\ space.jpg");
+}
+}
+
+/* RESPONSIVENESS */
+
+@media (max-width: 480px ) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html{
+    background: rgb(61,200,96);
+    background: linear-gradient(90deg, rgba(61,200,96,1) 0%, rgba(0,223,255,1) 100%);   
+  }
+  .web1 {
+    font-size: 40px;
+  letter-spacing: 8px;
+    font-weight: 800;
+   font-family: "fareed";
+    text-align: center;
+    word-spacing: px;
+  }
+  .imgslider{
+    width:90%;
+    height:50vh;
+    left: 0;
+    background-image: url("./images/money\ heist.jpg");
+    animation: changetime 15s linear infinite;
+    background-size: 100% 100%;
+    /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+    border-radius: 2%;
+    border: #272424;
+    margin: 20px ;
+    }
+
+    .img1 {
+      width: 90%;
+      height:50vh;
+      left:20px;
+      color: #000000;
+    background: #FFFFFF;
+    /* text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c; */
+      border-radius: 8%;
+    }
+    .img2 {
+      width: 90%;
+      height:50vh;
+      left:20px;
+      color: #000000;
+    background: #FFFFFF;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+      border-radius: 8%;
+    }
+    .img3 {
+      width: 90%;
+      height:50vh;
+      left:20px;
+      color: #000000;
+    background: #FFFFFF;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+      border-radius: 8%;
+    }
+    .img4 {
+      width: 90%;
+      height:50vh;
+      left:20px;
+      color: #000000;
+    background: #FFFFFF;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+      border-radius: 8%;
+    }
+    .img5 {
+      width: 90%;
+      height:50vh;
+      left:20px;
+      color: #000000;
+    background: #FFFFFF;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+      border-radius: 8%;
+    }
+    .head1 {
+      font-size: 30px;
+      font-family: "roshan";
+    }
+    .head2 {
+      font-size: 30px;
+      font-family: "roshan";
+      letter-spacing: 10px;
+    }
+    .head3 {
+      font-size: 30px;
+      font-family: "roshan";
+      letter-spacing: 10px;
+    }
+    .head4 {
+      font-size: 30px;
+      font-family: "roshan";
+      letter-spacing: 10px;
+    }
+    .head5 {
+      font-size: 30px;
+      font-family: "roshan";
+      letter-spacing: 10px;
+    }
+}
+
+@media (min-width:481px) and (max-width:769px){
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html{
+    background: rgb(61,200,96);
+background: linear-gradient(90deg, rgba(61,200,96,1) 0%, rgba(0,223,255,1) 100%);   
+  }
+  .web1 {
+    width: 100%;
+    font-size:30px;
+  letter-spacing:10px;
+    font-weight: 800;
+   font-family: "fareed";
+    text-align:justify;
+    word-spacing: 1px;
+  }
+  .imgslider{
+    width:96%;
+    height:70vh;
+    left: 0;
+    background-image: url("./images/money\ heist.jpg");
+    animation: changetime 15s linear infinite;
+    background-size: 100% 100%;
+    border-radius: 2%;
+    border: #272424;
+    margin: 20px ;
+    }
+    .img1 {
+      width: 96%;
+      height:75vh;
+      left:20px;
+      color: #000000;
+    background: #FFFFFF;
+      border-radius: 8%;
+    }
+    .img2 {
+      width: 96%;
+      height:75vh;
+      left:20px;
+      color: #000000;
+    background: #FFFFFF;
+      border-radius: 8%;
+    }
+    .img3 {
+      width: 96%;
+      height:75vh;
+      left:20px;
+      color: #000000;
+    background: #FFFFFF;
+      border-radius: 8%;
+    }
+    .img4 {
+      width: 96%;
+      height:75vh;
+      left:20px;
+      color: #000000;
+    background: #FFFFFF;
+      border-radius: 8%;
+    }
+    .img5 {
+      width: 96%;
+      height:75vh;
+      left:20px;
+      color: #000000;
+    background: #FFFFFF;
+      border-radius: 8%;
+    }
+    .head1 {
+      font-size: 50px;
+      font-family: "roshan";
+      letter-spacing: 25px;
+    }
+    .head2 {
+      font-size: 50px;
+      font-family: "roshan";
+      letter-spacing: 25px;
+    }
+    .head3 {
+      font-size: 50px;
+      font-family: "roshan";
+      letter-spacing: 25px;
+    }
+    .head4 {
+      font-size: 50px;
+      font-family: "roshan";
+      letter-spacing: 25px;
+    }
+    .head5 {
+      font-size: 50px;
+      font-family: "roshan";
+      letter-spacing: 25px;
+    }
+}
+
+/* !long code but soon i will modify it dont worry about space complexity */
